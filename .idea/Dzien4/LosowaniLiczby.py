@@ -1,16 +1,15 @@
 import random
 
-liczba = random.randint(1,101)
+liczba = random.randint(1, 101)
 
-zgadniecie = False
+zgadnienie = False
 
-while not zgadniecie:
+while not zgadnienie:
     N = int(input("Podaj liczbe od 1 do 100: "))
-
     if N < liczba:
-        print("Podales za mala liczbe, sprobuj jeszcze raz ")
+        print("Podales za mala liczbe, spruboj jeszcze raz")
     elif N > liczba:
-        print("Podales za duza liczbe, sprobuj jeszcze raz ")
+        print("Podales za duza liczbe, spruboj jeszcze raz")
     else:
-        print("Brawo TRAFILES !!!")
-        zgadniecie = True
+        print("Brawo Trafiles !!!!")
+        zgadnienie = True
