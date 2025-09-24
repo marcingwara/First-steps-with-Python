@@ -6,7 +6,7 @@ def srednia( a,b,c):
     wynik = a+b+c
     return wynik /3
 
-for i in range(10):
+while True:
     print("---MENU---")
     print("1: Dodawanie dwuch liczb")
     print("2: Obliczanie pola")
